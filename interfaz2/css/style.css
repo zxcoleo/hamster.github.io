@@ -323,8 +323,8 @@ body, html {
     top: 22px; /* Ajustar según el diseño necesario */
     left: 85%; /* Ajustar según el diseño necesario */
     transform: translate(-50%, -50%); /* Centrar la imagen correctamente */
-    height: 90px; /* Ajustar según el diseño necesario */
-    width: 90px; /* Ajustar según el diseño necesario */
+    height: 75px; /* Ajustar según el diseño necesario */
+    width: 75px; /* Ajustar según el diseño necesario */
 }
 
 

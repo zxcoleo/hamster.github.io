@@ -7,7 +7,7 @@ function getRandomNumber(min, max) {
 function updateValue() {
     let currentValue = parseFloat(localStorage.getItem('usdt-raised')) || 2049312.52; // Valor inicial
     const targetValue = 600000000.00; // Valor objetivo
-    const increment = getRandomNumber(1.48, 30.13); // Incremento aleatorio
+    const increment = getRandomNumber(1.48, 20.13); // Incremento aleatorio
 
     // Incrementar el valor actual
     const newValue = Math.min(currentValue + increment, targetValue);
@@ -20,7 +20,7 @@ function updateValue() {
 
     // Si no hemos alcanzado el valor objetivo, programar la próxima actualización
     if (newValue < targetValue) {
-        setTimeout(updateValue, getRandomNumber(1300, 5330));
+        setTimeout(updateValue, getRandomNumber(1000, 1500));
     }
 }
 
